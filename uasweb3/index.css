@@ -1,0 +1,20 @@
+body{
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(96, 96, 207, 0.8), rgba(9, 9, 88, 0.9)),
+     url(assets/collection.jpg);
+     background-size: auto;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.logo>a>img{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    margin-top: 150px;
+}
+
+.welcome{
+    margin-top: 50px;
+}

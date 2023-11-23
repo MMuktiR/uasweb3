@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naruto</title>
+    <link rel="stylesheet" href="n.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="container">
+        <nav class="wrapper">
+            <div class="brand">
+                <div class="fname">game</div>
+                <div class="lname">store</div>
+            </div>
+            <ul class="navigation">
+                <li><a href="home.html">home</a></li>
+                <li><a href="About.html">about</a></li>
+                <li><a href="index.html"><img src="assets/logo.jpeg" alt=""></a></li>
+            </ul>
+        </nav>   
+    </div>
+    <!-- NavBar End -->
+
+    <!-- Content -->
+    <div class="gi">
+        <h1>Game Info</h1>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <th>Naruto Shippuden Ultimate Ninja Storm Legacy</th>
+            </tr>
+            <tr>
+                <td><img src="assets/nl.jpg" alt="" class="n"></td>
+            </tr>          
+        </table>
+    </div>
+    <div class="description">
+        <h1>Naruto Shippuden Ultimate Ninja Storm Legacy</h1>
+        <p> Game ini merupakan game fighting yang mengadaptasi seri Naruto.
+            Game ini bergenre Action, Adventure, Strategy.
+            Dikembangkan oleh CyberConnect2 Co. Ltd. dan dipublikasikan oleh BANDAI NAMCO Entertainment.
+            Dengan seri pertamanya yang berjudul Naruto Ultimate Ninja Storm yang pertama kali dirilis di PS3 pada 4 November 2008.
+            Game ini memiliki beberapa seri hingga seri terbarunya untuk saat ini adalah Naruto Shippuden Ultimate Ninja Storm 4 yang pertama kali dirilis di PS4 pada 4 Februari 2016.
+        </p>
+        <p>Dengan membeli Naruto Shippuden Ultimate Ninja Storm Legacy anda akan mendapatkan 4 game sekaligus yaitu:</p>
+        <table>
+            <tr>
+                <th><img src="assets/n.jpg" alt="" class="cover"></th>
+                <th><img src="assets/n2.jpg" alt="" class="cover"></th>
+                <th><img src="assets/n3.jpg" alt="" class="cover"></th>
+                <th><img src="assets/n4.jpg" alt="" class="cover"></th>
+            </tr>
+            <tr class="details">
+                <td><button onclick="naruto1()">Show details</button></td>
+                <td><button onclick="naruto2()">Show details</button></td>
+                <td><button onclick="naruto3()">Show details</button></td>
+                <td><button onclick="naruto4()">Show details</button></td>
+            </tr>
+        </table>
+        <div id="detail1">
+            <p><b>Naruto: Ultimate Ninja Storm</b>, di seri ini menceritakan tentang perjalanan Naruto menjadi seorang ninja hingga perginya Sasuke dari Konoha demi mendapatkan kekuatan dari Orochimaru. 
+             Game ini memungkinkan pemain untuk bertarung dalam 3D penuh di lingkungan yang luas. Rilis pada 4 November 2008 dengan harga Rp 220.000</p>
+             <button onclick="naruto1()">Hide details</button>
+        </div>
+        <div id="detail2">
+            <p><b>Naruto Shippuden: Ultimate Ninja Storm 2</b>, merupakan game kedua dari seri Ultimate Ninja Storm, 
+              di seri ini membawa pemain ke dalam arc cerita Naruto Shippuden dengan sistem pertarungan baru dan peningkatan gameplay. 
+              Pemain harus memilih rekan untuk bertarung di sisinya dan bertarung bersama untuk melancarkan serangan tim spesial untuk mengalahkan musuh. 
+              Ultimate Ninja Storm 2 telah dibuat ulang dalam HD. Rilis pada 14 Oktober 2010 dengan harga Rp 220.000</p>
+             <button onclick="naruto2()">Hide details</button>
+        </div>
+        <div id="detail3">
+            <p><b>Naruto Shippuden: Ultimate Ninja Storm 3 Full Burst HD</b>, perang dunia ninja ke 4 berlanjut. 
+              NARUTO SHIPPUDEN Ultimate Ninja Storm 3 telah ditingkatkan menyeluruh untuk kembalinya Full Burst. 
+              Dari banyaknya peningkatan ada penambahan chapter yang dinanti-nantikan di mana Sasuke dan Itachi menghadapi 
+              Kabuto dalam pertarungan yang sengit untuk menghentikan edotensei. Ultimate Ninja Storm 3 telah dibuat ulang dalam HD. 
+              Rilis pada 5 Maret 2013 dengan harga Rp 220.000</p>
+             <button onclick="naruto3()">Hide details</button>
+        </div>
+        <div id="detail4">
+            <p><b>Naruto Shippuden: Ultimate Ninja Storm 4</b>, karya terakhir dari seri Storm membawamu ke dalam perjalanan yang menakjubkan. 
+              Mengambil keuntungan dari perbuhan sistem bertarung dan bersiaplah untuk menyaksikan pertarungan epic yang pernah ada di dalam seri 
+              Naruto Shippuden: Ultimate Ninja Storm! Rilis pada 4 Februari 2016 dengan harga Rp 330.000</p>
+             <button onclick="naruto4()">Hide details</button>
+        </div>
+    </div>
+    <div class="sample">
+        <h1>Gameplay:</h1>
+        <iframe width="854" height="480"
+src="https://youtube.com/embed/K6SIo8KBu-Q">
+</iframe>
+    </div>
+    <!-- Content End -->
+
+    <!-- Form -->
+    <form>
+    <div>
+        <p><label for="email">Email:</p>
+            <input type="text" name="email" id="email" value="" size="50" maxlength="60">
+        <p>Metode Pembayaran</p>
+                <td><input type="radio" name="b" id="alfamart" value="alfamart"><label for="alfamart"></label>Alfamart</td>
+				<td><input type="radio" name="b" id="indomaret" value="indomaret"><label for="indomaret"></label>Indomaret</td>
+                <td><input type="radio" name="b" id="dana" value="dana"><label for="dana"></label>Dana</td>
+				<td><input type="radio" name="b" id="paypal" value="paypal"><label for="paypal"></label>Paypal</td>
+        <p><input type="submit" name="submit" value="submit"></p>
+    </div>
+    </form>
+    <!-- Form End -->
+
+    <!-- JavaScript -->
+    <script>
+        function naruto1() {
+          var x = document.getElementById("detail1");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        </script>
+        <script>
+            function naruto2() {
+              var x = document.getElementById("detail2");
+              if (x.style.display === "none") {
+                x.style.display = "block";
+              } else {
+                x.style.display = "none";
+              }
+            }
+            </script>
+            <script>
+            function naruto3() {
+              var x = document.getElementById("detail3");
+              if (x.style.display === "none") {
+                x.style.display = "block";
+              } else {
+                x.style.display = "none";
+              }
+            }
+            </script>
+            <script>
+                function naruto4() {
+                  var x = document.getElementById("detail4");
+                  if (x.style.display === "none") {
+                    x.style.display = "block";
+                  } else {
+                    x.style.display = "none";
+                  }
+                }
+            </script>
+    <!-- JavaScript End-->        
+</body>
+</html>
